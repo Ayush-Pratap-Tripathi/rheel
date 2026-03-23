@@ -21,7 +21,7 @@ const path = require('path');
 
 app.use('/api/users', userRoutes);
 app.use('/api/vehicles', vehicleRoutes);
-app.use('/api/rent', rentRoutes);
+app.use('/api/rents', rentRoutes);
 app.use('/api/admin', adminRoutes);
 
 if (process.env.NODE_ENV === 'production') {
